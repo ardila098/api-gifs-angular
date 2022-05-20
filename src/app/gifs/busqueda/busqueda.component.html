@@ -1,0 +1,11 @@
+
+    <!--evento keyup   el cual tiene una funcion que la llamo desde busqueda.component -->
+<!--keyup.enter     significa cuando suelte la tecla enter captura el dato-->
+<!--#txtbuscar es la caja de texto que voyu a utlizar-->
+
+    <h5>Buscar</h5>
+    <input type="text" class="form-control" 
+    placeholder="Buscar Gifs"
+    (keyup.enter)="buscar()"
+    #txtBuscar
+    >
